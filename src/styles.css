@@ -1,0 +1,222 @@
+body {
+  color: rgb(247, 236, 236);
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  border: 50px;
+}
+
+/* Adicione o as cores do Google */
+@keyframes changeColor {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: rgb(170, 10, 5);
+  }
+  75% {
+    background-color: rgb(248, 244, 10);
+  }
+  100% {
+    background-color: rgb(8, 158, 3);
+  }
+}
+
+ul {
+  animation: changeColor 5s infinite;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 25px;
+  border-radius: 40px;
+}
+
+.container {
+  border-radius: 80px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 -15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.navbar {
+  background-color: blue;
+  padding-top: 40px 0; /* Adicione o valor desejado para o espaço superior */
+  padding-bottom: 40px; /* Adicione o valor desejado para o espaço inferior */
+  padding-left: 0; /* Remova o espaço à esquerda */
+  padding-right: 95px; /* Remova o espaço à direita */
+  border-radius: 80px; /* Arredondar bordas do nav */
+  background-image: url('img/Espaço06.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Cubra completamente o contêiner */
+  background-position: center;
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  border: 12px solid black; /* Adiciona uma borda preta de 2 pixels */
+}
+
+.navbar-brand {
+  font-size: 0px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.navbar-brand img {
+  border-radius: 50%; /* Imagem arredondada */
+}
+
+.nav-link strong {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.a2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; /* Imagem 02 vini */
+  font-size: 60px;
+}
+
+.imagem-redonda {
+  border-radius: 60%;
+  border: 8px solid black;
+}
+
+.social-links,
+.social-icons,
+.social-icons-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons,
+.social-icons-footer {
+  flex-direction: column;
+  align-items: center;
+  margin:0 30px;/* Ajuste o espaçamento icone sociais baixo */
+}
+
+a {
+  color: rgb(115, 255, 0);
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icons img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin: 0 35px;/* Ajuste o espaçamento icone sociais topo */
+}
+
+.social-links img,
+.social-links a img {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+
+.social-icons-footer-container {
+  display: flex;
+  justify-content: space-around; /* Ajuste o espaçamento conforme necessário */
+  margin:0 10px;
+}
+
+.social-links a img {
+  border: 3px solid white;
+  border-radius: 60%;
+}
+
+section {
+  text-align: center;/* Ajuste do texto conforme necessário */
+}
+
+h3 {
+  color: black;
+  font-size: 35px;
+  font-style: italic;
+}
+
+p {
+  color: black;
+  font-size: 18px;/* letras do vitae */
+}
+
+.custom-text {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-container {
+  max-width: 660px; /* ou o valor desejado */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.input-small,
+textarea {
+  width: 100%;
+  height: 150px; /* ou o valor desejado para a altura */
+  padding: 10px; /* ou o valor desejado para o espaçamento interno */
+  box-sizing: border-box;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 5px; /* Ajusta o espaçamento entre caixas de texto e botão enviar */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Ajusta o espaçamento entre caixas de texto */
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 50px; /* Ajusta o tamanho do botao enviar */
+}
+
+.form-control {
+  width: 100%; /* Os campos ocupam 100% da largura disponível */
+  padding: 20px; /* Espaçamento interno nos campos */
+  font-size: 20px; /* Tamanho da fonte nos campos */
+  box-sizing: border-box;
+}
+
+.form-box {
+  background-color: #8b8a8a; /* Cor de fundo da caixa */
+  padding: 10px; /* Espaçamento interno da caixa - ajuste conforme necessário */
+  border: 4px solid rgb(248, 248, 247); /* Borda da caixa */
+  border-radius: 10px; /* Borda arredondada da caixa */
+  margin: 20px auto; /* Centralizar a caixa horizontalmente e adicionar margem superior */
+  max-width: 600px; /* Defina a largura máxima conforme necessário */
+  text-align: center; /* Centralizar o conteúdo dentro da caixa */
+}
+
+#contatos h3 {
+  color: black; /* ou a cor desejada para o texto */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
